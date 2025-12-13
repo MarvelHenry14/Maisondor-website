@@ -2,42 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Maison d’Or et Diamant</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet" />
-</head>
-<body>
-  <header>
-    <h1>👑 Maison d’Or et Diamant 👑</h1>
-    <p class="tagline">Timeless Elegance in Every Carat</p>
-  </header>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff8f0;
+      color: #111;
+    }
 
-  <section class="about">
-    <h2>About Us</h2>
-    <p>Maison d’Or et Diamant is a luxury jewelry brand specializing in 18K & 24K gold and certified diamond jewelry. Because elegance isn’t worn — it’s owned.</p>
-  </section>
+    header {
+      background: #000;
+      color: gold;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
 
-  <section class="collections">
-    <h2>Our Collection</h2>
-    <ul>
-      <li>Gold Collection</li>
-      <li>Diamond Collection</li>
-      <li>Custom & Ready-to-Wear</li>
-    </ul>
-  </section>
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin: 0;
+    }
 
-  <section class="products">
-    <h2>Featured Products</h2>
-    <div class="gallery">
-      <img src="earrings.jpg" alt="Diamond Earrings" />
-      <!-- Add more images as needed -->
-    </div>
-  </section>
+    .tagline {
+      color: #fff;
+      margin-top: 0.5rem;
+    }
 
-<section class="contact">
-    <h2>Contact Us</h2>
-    <ul>
+    section {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      color: #ffbf00;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+
+    .contact a {
+      color: #0000ee;
+<ul>
       <li>📞 <a href="tel:+2349029368197">+234 902 936 8197</a></li>
       <li>📱 WhatsApp: <a href="https://wa.me/2349029368197" target="_blank">Chat Now</a></li>
       <li>📸 Instagram: <a href="https://instagram.com/maisondor.diamant" target="_blank">@maisondor.diamant</a></li>
@@ -50,3 +64,64 @@
   </footer>
 </body>
 </html>
+
+text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>👑 Maison d’Or et Diamant 👑</h1>
+    <p class="tagline">Timeless Elegance in Every Carat</p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>Maison d’Or et Diamant is a luxury jewelry brand specializing in 18K & 24K gold and certified diamond jewelry. Because elegance isn’t worn — it’s owned.</p>
+  </section>
+
+  <section>
+    <h2>Our Collection</h2>
+    <ul>
+      <li>Gold Collection</li>
+      <li>Diamond Collection</li>
+      <li>Custom & Ready-to-Wear</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Featured Products</h2>
+    <div class="gallery">
+      <img src="your-image-link-here.jpg" alt="Jewelry Product 1" />
+      <!-- Add more images like this -->
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
