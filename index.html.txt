@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maison d’Or et Diamant</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>👑 Maison d’Or et Diamant 👑</h1>
+    <p class="tagline">Timeless Elegance in Every Carat</p>
+  </header>
+
+  <section class="about">
+    <h2>About Us</h2>
+    <p>Maison d’Or et Diamant is a luxury jewelry brand specializing in 18K & 24K gold and certified diamond jewelry. Because elegance isn’t worn — it’s owned.</p>
+  </section>
+
+  <section class="collections">
+    <h2>Our Collection</h2>
+    <ul>
+      <li>Gold Collection</li>
+      <li>Diamond Collection</li>
+      <li>Custom & Ready-to-Wear</li>
+    </ul>
+  </section>
+
+  <section class="products">
+    <h2>Featured Products</h2>
+    <div class="gallery">
+      <img src="earrings.jpg" alt="Diamond Earrings" />
+      <!-- Add more images as needed -->
+    </div>
+  </section>
+
+text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+<section class="contact">
+    <h2>Contact Us</h2>
+    <ul>
+      <li>📞 <a href="tel:+2349029368197">+234 902 936 8197</a></li>
+      <li>📱 WhatsApp: <a href="https://wa.me/2349029368197" target="_blank">Chat Now</a></li>
+      <li>📸 Instagram: <a href="https://instagram.com/maisondor.diamant" target="_blank">@maisondor.diamant</a></li>
+      <li>📧 Email: <a href="mailto:maisondor.diamant@gmail.com">maisondor.diamant@gmail.com</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>©️ 2025 Maison d’Or et Diamant</p>
+  </footer>
+</body>
+</html>
